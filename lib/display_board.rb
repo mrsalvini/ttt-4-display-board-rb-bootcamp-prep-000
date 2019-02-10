@@ -3,12 +3,14 @@
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 
 def display_board(board)
-  lines = ""
+  lines = "-----------"
   i = 0
-  res = ""
+  result = ""
   3.times do
-    print " #{} |"
+    result.concat(" #{} |")
   end
+  result = result.chop
+  result.concat"\n"
 end
 
   puts " #{} | #{} | #{} "
