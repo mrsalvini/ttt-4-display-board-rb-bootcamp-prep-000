@@ -12,11 +12,11 @@ def display_board(board)
       i = i.next
     end
     result = result.chop
-    result.concat"\n#{lines}"
+    result.concat("\n#{lines}")
   end
-#  12.times do
- #   result.chop
-  #end
+  12.times do
+    result = result.chop
+  end
   
   puts result
 end
