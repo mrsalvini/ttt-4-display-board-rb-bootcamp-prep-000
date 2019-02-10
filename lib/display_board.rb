@@ -3,7 +3,9 @@
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 
 def display_board(board)
+  lines = ""
   i = 0
+  res = ""
   3.times do
     print " #{} |"
   end
