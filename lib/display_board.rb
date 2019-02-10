@@ -5,7 +5,7 @@ board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 def display_board(board)
   i = 0
   3.times do
-    
+    print " #{} |"
   end
 end
 
