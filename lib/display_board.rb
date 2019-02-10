@@ -3,4 +3,4 @@
 
 def display_board(board)
   lines = "-----------"
-  columns = ""
+  columns = "   |   |   "
