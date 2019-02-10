@@ -12,3 +12,4 @@ def display_board(board)
   result = result.chop
   result.concat"\n"
   puts result
+end
