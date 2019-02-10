@@ -8,11 +8,14 @@ def display_board(board)
   result = ""
   3.times do
     3.times do
-      
+      result.concat(" #{board[i]} |")
+      i = i.next
     end
-    result.concat(" #{} |")
+    result = result.chop
+    result.concat"\n#{lines}"
   end
-  result = result.chop
-  result.concat"\n"
+  12.times do
+    result.chop
+  end
+  
   puts result
-end
