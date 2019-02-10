@@ -14,7 +14,7 @@ def display_board(board)
     result = result.chop
     result.concat("\n#{lines}\n")
   end
-  12.times do
+  13.times do
     result = result.chop
   end
   
