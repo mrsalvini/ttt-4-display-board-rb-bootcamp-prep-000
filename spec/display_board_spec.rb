@@ -160,9 +160,9 @@ describe "#display_board in 'lib/display_board.rb" do
       # meaning you expect the entire output to at least include a matching row.
       expect(rows[0]).to eq(" X | X | X ")
       expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq(" X | O | O ")
+      expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" X | O | O ")
+      expect(rows[4]).to eq(" X | X | X ")
 
       # *** Comment the line below by adding a # at the line start ***
       # expect(true).to be(true)
