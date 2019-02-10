@@ -2,4 +2,5 @@
 # out the current state.
 
 def display_board(board)
-  row = ""
+  lines = "-----------"
+  columns = ""
