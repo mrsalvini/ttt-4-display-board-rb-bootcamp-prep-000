@@ -7,6 +7,9 @@ def display_board(board)
   i = 0
   result = ""
   3.times do
+    3.times do
+      
+    end
     result.concat(" #{} |")
   end
   result = result.chop
