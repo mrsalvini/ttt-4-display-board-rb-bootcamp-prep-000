@@ -11,7 +11,4 @@ def display_board(board)
   end
   result = result.chop
   result.concat"\n"
-end
-
-  puts " #{} | #{} | #{} "
-  
+  puts result
